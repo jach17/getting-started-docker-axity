@@ -37,3 +37,28 @@ body {
 button:focus {
     border: 1px solid #333;
 }
+.corner-image-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: 100px;
+}
+.corner-image-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+#currentDateTime {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.2em; /* Opcional: solo para que sea un poco más grande y legible */
+    background-color: rgba(0, 0, 0, 0.6); /* Opcional: un fondo para mejorar la legibilidad */
+    color: white; /* Opcional: color de texto blanco */
+    padding: 5px; /* Opcional: un poco de relleno alrededor del texto */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+}

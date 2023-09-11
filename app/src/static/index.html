@@ -7,19 +7,12 @@
     <link rel="stylesheet" href="css/font-awesome/all.min.css" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main-code.js"></script>
     <title>Pase de Lista Curso Docker</title>
-    <style>
-        .corner-image {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            width: 200px;
-            height: 100px;
-        }
-    </style>
 </head>
 <body>
-    <img class="corner-image" src="images/logo.png" alt="Logo Axity" />
+    <img class="corner-image-left" src="images/logo.png" alt="Logo Axity" />
+    <img class="corner-image-right" src="images/docker-logo.png" alt="Logo Docker" /> <!-- Nueva imagen agregada -->
     <div id="root"></div>
     <script src="js/react.production.min.js"></script>
     <script src="js/react-dom.production.min.js"></script>
@@ -27,4 +20,7 @@
     <script src="js/babel.min.js"></script>
     <script type="text/babel" src="js/app.js"></script>
 </body>
+<footer>
+    <label id="currentDateTime"></label>
+</footer>
 </html>
